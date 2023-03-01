@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="greet">BUENOS DIAS</div>
+    <button id="click" onclick="changeText()">Click me</button>
+
+
+
+
+<script>
+    function changeText(){
+        document.getElementById("greet").innerHTML="HOLA"
+    }
+    // hàm thông báo alert
+    alert("Como se va?") 
+    // hàm yc người dùng nhập thông tin prompt
+    prompt("De donde eres?")
+    // hàm xác nhận thông tin confirm
+    confirm("Regura?")
+
+    let a=prompt("Tell me your age!")
+    // dò lỗi console.log
+    console.log("Find age",a) 
+    if(a<=90)
+    alert("Thank you!")
+
+
+</script>
+</body>
+</html>
